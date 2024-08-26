@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\api",
+    "\\src\\routes"
   ],
-  "SelectedNode": "\\server.js",
+  "SelectedNode": "\\package-lock.json",
   "PreviewInSolutionExplorer": false
 }
