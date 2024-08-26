@@ -4,7 +4,7 @@ const telegramRoutes = require('./src/routes/tiktokRoutes');
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 // Middleware to parse JSON request bodies
 app.use(bodyParser.json());
