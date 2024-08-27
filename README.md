@@ -3,7 +3,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-16%2B-brightgreen)
 ![Express.js](https://img.shields.io/badge/Express.js-4.x-blue)
 ![dotenv](https://img.shields.io/badge/dotenv-10.0.0-yellowgreen)
-![axios](https://img.shields.io/badge/axios-0.21.1-blue)
+![axios](https://img.shields.io/badge/axios-0.28.0-blue)
 
 ## Description
 
