@@ -10,11 +10,11 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 // Use the telegram routes
-app.use('/api', telegramRoutes);
+app.use('/api', tiktokRoutes);
 
 // Root route to verify server is running
 app.get('/', (req, res) => {
-    res.send('Telegram Subscriber API is running!');
+    res.send('tiktok Subscriber API is running!');
 });
 
 // Start the server
