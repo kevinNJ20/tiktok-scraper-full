@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\tiktok-scraper-full\\src\\api\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\api\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\tiktok-scraper-full\\src\\api\\tiktokService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\api\\tiktokService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\tiktok-scraper-full\\src\\routes\\tiktokRoutes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\routes\\tiktokRoutes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,22 +32,36 @@
               "RelativeDocumentMoniker": "server.js",
               "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\tiktok-scraper-full\\server.js",
               "RelativeToolTip": "server.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-26T20:08:38.014Z",
+              "WhenOpened": "2024-09-10T15:19:20.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "index.js",
-              "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\tiktok-scraper-full\\src\\api\\index.js",
-              "RelativeDocumentMoniker": "src\\api\\index.js",
-              "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\tiktok-scraper-full\\src\\api\\index.js",
-              "RelativeToolTip": "src\\api\\index.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "tiktokService.js",
+              "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\tiktok-scraper-full\\src\\api\\tiktokService.js",
+              "RelativeDocumentMoniker": "src\\api\\tiktokService.js",
+              "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\tiktok-scraper-full\\src\\api\\tiktokService.js",
+              "RelativeToolTip": "src\\api\\tiktokService.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-26T20:08:21.47Z"
+              "WhenOpened": "2024-09-10T11:03:21.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tiktokRoutes.js",
+              "DocumentMoniker": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\tiktok-scraper-full\\src\\routes\\tiktokRoutes.js",
+              "RelativeDocumentMoniker": "src\\routes\\tiktokRoutes.js",
+              "ToolTip": "C:\\Users\\kevin.jameinnjundja\\Documents\\projets persos\\tiktok-scraper-full\\src\\routes\\tiktokRoutes.js",
+              "RelativeToolTip": "src\\routes\\tiktokRoutes.js",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-10T11:02:50.142Z",
+              "EditorCaption": ""
             }
           ]
         }
