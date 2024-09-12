@@ -11,7 +11,7 @@ const getTrendingVideos = async (region, count) => {
         const url = `https://tiktok-scraper7.p.rapidapi.com/feed/list`;
         const headers = {
             'x-rapidapi-host': 'tiktok-scraper7.p.rapidapi.com',
-            'x-rapidapi-key': '5627851512msh0ce6cf4fd3d863ep176022jsn23c5c3a200cc'
+            'x-rapidapi-key': 'b23cc0579emsh1b6f9bda724b092p11a5ebjsnb521ffe8365a'
         }
         console.log(`Requesting URL: ${url}, Params: { region: ${region},  count: ${count}}`);
         const response = await axios.get(url, {
@@ -32,7 +32,7 @@ const getVideoDetails = async (url) => {
         const url = `https://tiktok-scraper7.p.rapidapi.com/`;
         const headers = {
             'x-rapidapi-host': 'tiktok-scraper7.p.rapidapi.com',
-            'x-rapidapi-key': '5627851512msh0ce6cf4fd3d863ep176022jsn23c5c3a200cc'
+            'x-rapidapi-key': 'b23cc0579emsh1b6f9bda724b092p11a5ebjsnb521ffe8365a'
         }
         console.log(`Requesting URL: ${url}, Params: { url: ${url}}`);
         const response = await axios.get(url, {
@@ -52,7 +52,7 @@ const getUserVideos = async (user_id, count, cursor) => {
         const url = `https://tiktok-scraper7.p.rapidapi.com/user/posts`;
         const headers = {
             'x-rapidapi-host': 'tiktok-scraper7.p.rapidapi.com',
-            'x-rapidapi-key': '5627851512msh0ce6cf4fd3d863ep176022jsn23c5c3a200cc'
+            'x-rapidapi-key': 'b23cc0579emsh1b6f9bda724b092p11a5ebjsnb521ffe8365a'
         }
         console.log(`Requesting URL: ${url}, Params: { user_id: ${user_id},  count: ${count}, cursor: ${cursor}}`);
         const response = await axios.get(url, {
@@ -72,7 +72,7 @@ const getUserInfo = async (user_id) => {
         const url = `https://tiktok-scraper7.p.rapidapi.com/user/info`;
         const headers = {
             'x-rapidapi-host': 'tiktok-scraper7.p.rapidapi.com',
-            'x-rapidapi-key': '5627851512msh0ce6cf4fd3d863ep176022jsn23c5c3a200cc'
+            'x-rapidapi-key': 'b23cc0579emsh1b6f9bda724b092p11a5ebjsnb521ffe8365a'
         }
         console.log(`Requesting URL: ${url}, Params: { user_id: ${user_id}}`);
         const response = await axios.get(url, {
@@ -92,7 +92,7 @@ const getUserFollowers = async (user_id, count, time) => {
         const url = `https://tiktok-scraper7.p.rapidapi.com/user/followers`;
         const headers = {
             'x-rapidapi-host': 'tiktok-scraper7.p.rapidapi.com',
-            'x-rapidapi-key': '5627851512msh0ce6cf4fd3d863ep176022jsn23c5c3a200cc'
+            'x-rapidapi-key': 'b23cc0579emsh1b6f9bda724b092p11a5ebjsnb521ffe8365a'
         }
         console.log(`Requesting URL: ${url}, Params: { user_id: ${user_id},  count: ${count}, time: ${time}}`);
         const response = await axios.get(url, {
@@ -112,7 +112,7 @@ const getUserFollowing = async (user_id, count, time) => {
         const url = `https://tiktok-scraper7.p.rapidapi.com/user/following`;
         const headers = {
             'x-rapidapi-host': 'tiktok-scraper7.p.rapidapi.com',
-            'x-rapidapi-key': '5627851512msh0ce6cf4fd3d863ep176022jsn23c5c3a200cc'
+            'x-rapidapi-key': 'b23cc0579emsh1b6f9bda724b092p11a5ebjsnb521ffe8365a'
         }
         console.log(`Requesting URL: ${url}, Params: { user_id: ${user_id},  count: ${count}, time: ${time}}`);
         const response = await axios.get(url, {
@@ -132,7 +132,7 @@ const getUserFavorite = async (user_id, count, cursor) => {
         const url = `https://tiktok-scraper7.p.rapidapi.com/user/favorite`;
         const headers = {
             'x-rapidapi-host': 'tiktok-scraper7.p.rapidapi.com',
-            'x-rapidapi-key': '5627851512msh0ce6cf4fd3d863ep176022jsn23c5c3a200cc'
+            'x-rapidapi-key': 'b23cc0579emsh1b6f9bda724b092p11a5ebjsnb521ffe8365a'
         }
         console.log(`Requesting URL: ${url}, Params: { user_id: ${user_id},  count: ${count}, cursor: ${cursor}}`);
         const response = await axios.get(url, {
@@ -152,7 +152,7 @@ const getVideoComments = async (url, count, cursor) => {
         const url = `https://tiktok-scraper7.p.rapidapi.com/comment/list`;
         const headers = {
             'x-rapidapi-host': 'tiktok-scraper7.p.rapidapi.com',
-            'x-rapidapi-key': '5627851512msh0ce6cf4fd3d863ep176022jsn23c5c3a200cc'
+            'x-rapidapi-key': 'b23cc0579emsh1b6f9bda724b092p11a5ebjsnb521ffe8365a'
         }
         console.log(`Requesting URL: ${url}, Params: { url: ${url},  count: ${count}, cursor: ${cursor}}`);
         const response = await axios.get(url, {
@@ -172,7 +172,7 @@ const getCommentReplies = async (video_id, comment_id, count, cursor) => {
         const url = `https://tiktok-scraper7.p.rapidapi.com/comment/reply`;
         const headers = {
             'x-rapidapi-host': 'tiktok-scraper7.p.rapidapi.com',
-            'x-rapidapi-key': '5627851512msh0ce6cf4fd3d863ep176022jsn23c5c3a200cc'
+            'x-rapidapi-key': 'b23cc0579emsh1b6f9bda724b092p11a5ebjsnb521ffe8365a'
         }
         console.log(`Requesting URL: ${url}, Params: { video_id: ${video_id},  comment_id: ${comment_id}, count: ${count}, cursor: ${cursor}}`);
         const response = await axios.get(url, {
@@ -192,7 +192,7 @@ const getChallengeVideos = async (challenge_id, count, cursor) => {
         const url = `https://tiktok-scraper7.p.rapidapi.com/challenge/posts`;
         const headers = {
             'x-rapidapi-host': 'tiktok-scraper7.p.rapidapi.com',
-            'x-rapidapi-key': '5627851512msh0ce6cf4fd3d863ep176022jsn23c5c3a200cc'
+            'x-rapidapi-key': 'b23cc0579emsh1b6f9bda724b092p11a5ebjsnb521ffe8365a'
         }
         console.log(`Requesting URL: ${url}, Params: { challenge_id: ${challenge_id},  count: ${count}, cursor: ${cursor}`);
         const response = await axios.get(url, {
@@ -212,7 +212,7 @@ const getChallengeDetails = async (challenge_id) => {
         const url = `https://tiktok-scraper7.p.rapidapi.com/challenge/info`;
         const headers = {
             'x-rapidapi-host': 'tiktok-scraper7.p.rapidapi.com',
-            'x-rapidapi-key': '5627851512msh0ce6cf4fd3d863ep176022jsn23c5c3a200cc'
+            'x-rapidapi-key': 'b23cc0579emsh1b6f9bda724b092p11a5ebjsnb521ffe8365a'
         }
         console.log(`Requesting URL: ${url}, Params: { challenge_id: ${challenge_id}`);
         const response = await axios.get(url, {
@@ -232,7 +232,7 @@ const getMusicVideos = async (music_id, count, cursor) => {
         const url = `https://tiktok-scraper7.p.rapidapi.com/music/posts`;
         const headers = {
             'x-rapidapi-host': 'tiktok-scraper7.p.rapidapi.com',
-            'x-rapidapi-key': '5627851512msh0ce6cf4fd3d863ep176022jsn23c5c3a200cc'
+            'x-rapidapi-key': 'b23cc0579emsh1b6f9bda724b092p11a5ebjsnb521ffe8365a'
         }
         console.log(`Requesting URL: ${url}, Params: { music_id: ${music_id},  count: ${count}, cursor: ${cursor}`);
         const response = await axios.get(url, {
@@ -252,7 +252,7 @@ const getMusicDetails = async (url) => {
         const link = `https://tiktok-scraper7.p.rapidapi.com/music/info`;
         const headers = {
             'x-rapidapi-host': 'tiktok-scraper7.p.rapidapi.com',
-            'x-rapidapi-key': '5627851512msh0ce6cf4fd3d863ep176022jsn23c5c3a200cc'
+            'x-rapidapi-key': 'b23cc0579emsh1b6f9bda724b092p11a5ebjsnb521ffe8365a'
         }
         console.log(`Requesting URL: ${link}, Params: { url: ${url}`);
         const response = await axios.get(link, {
@@ -272,7 +272,7 @@ const getSearchVideo = async (keywords, region, count, cursor, publish_time, sor
         const url = `https://tiktok-scraper7.p.rapidapi.com/feed/search`;
         const headers = {
             'x-rapidapi-host': 'tiktok-scraper7.p.rapidapi.com',
-            'x-rapidapi-key': '5627851512msh0ce6cf4fd3d863ep176022jsn23c5c3a200cc'
+            'x-rapidapi-key': 'b23cc0579emsh1b6f9bda724b092p11a5ebjsnb521ffe8365a'
         }
         console.log(`Requesting URL: ${url}, Params: { keywords: ${keywords},  region: ${region}, count: ${count}, cursor: ${cursor}, publish_time: ${publish_time}, sort_type: ${sort_type}`);
         const response = await axios.get(url, {
@@ -292,7 +292,7 @@ const getSearchChallenge = async (keywords, count, cursor) => {
         const url = `https://tiktok-scraper7.p.rapidapi.com/challenge/search`;
         const headers = {
             'x-rapidapi-host': 'tiktok-scraper7.p.rapidapi.com',
-            'x-rapidapi-key': '5627851512msh0ce6cf4fd3d863ep176022jsn23c5c3a200cc'
+            'x-rapidapi-key': 'b23cc0579emsh1b6f9bda724b092p11a5ebjsnb521ffe8365a'
         }
         console.log(`Requesting URL: ${url}, Params: { keywords: ${keywords}, count: ${count}, cursor: ${cursor}`);
         const response = await axios.get(url, {
@@ -312,7 +312,7 @@ const getSearchUsers = async (keywords, count, cursor) => {
         const url = `https://tiktok-scraper7.p.rapidapi.com/user/search`;
         const headers = {
             'x-rapidapi-host': 'tiktok-scraper7.p.rapidapi.com',
-            'x-rapidapi-key': '5627851512msh0ce6cf4fd3d863ep176022jsn23c5c3a200cc'
+            'x-rapidapi-key': 'b23cc0579emsh1b6f9bda724b092p11a5ebjsnb521ffe8365a'
         }
         console.log(`Requesting URL: ${url}, Params: { keywords: ${keywords}, count: ${count}, cursor: ${cursor}`);
         const response = await axios.get(url, {
